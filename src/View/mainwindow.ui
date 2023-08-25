@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1343</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="push_button_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_dot">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_calc">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_0">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QLineEdit" name="result_line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>471</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_div">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_mult">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_plus">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_minus">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_atan">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>atan</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_sin">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sin</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_asin">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>asin</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_tan">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>tan</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_cos">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>cos</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_acos">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>330</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>acos</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_log">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>450</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>log</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_ln">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>390</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ln</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_sqrt">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sqrt</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_pow">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>^</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_mod">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mod</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_clear">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AC</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_close_bracket">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>)</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="push_button_open_bracket">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>(</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QDoubleSpinBox" name="double_spin_box_x_value">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>340</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>6</number>
+    </property>
+    <property name="minimum">
+     <double>-99999999999999998278261272554585856747747644714015897553975120217811154108416.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000000000000000057766609898115896702437267127096064137098041863234712334016924614656.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="x_value">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>320</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X - Value</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_x">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>380</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">numbers</string>
+    </attribute>
+   </widget>
+   <widget class="QLineEdit" name="status_line">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="graph" native="true">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>10</y>
+      <width>701</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_make_graph">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>220</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="double_spin_box_min_y">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-1000000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="double_spin_box_max_x">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>70</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-1000000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="double_spin_box_min_x">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-1000000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="double_spin_box_max_y">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-1000000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="max_x">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>70</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>max_x</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="min_x">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>min_x</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="max_y">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>70</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>max_y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="min_y">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>min_y</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="numbers"/>
+ </buttongroups>
+</ui>
